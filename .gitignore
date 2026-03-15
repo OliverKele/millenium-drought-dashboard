@@ -1,0 +1,33 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Streamlit local state
+.streamlit/secrets.toml
+
+# Keep runtime dashboard assets tracked
+!outputs/
+
+# App only visualises pre-rendered outputs; ignore raw input data to keep repo small
+data/
+
+# Local exports
+DataAnalysisExpert/
